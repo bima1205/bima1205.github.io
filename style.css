@@ -113,7 +113,9 @@ main {
     width: 260px;
     height: 320px;
     object-fit: cover;
+    object-position: center;
     border-radius: 4px;
+    display: block;
 }
 
 section {
