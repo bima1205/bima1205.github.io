@@ -185,6 +185,11 @@ section {
 .journal {
     color: #666;
     margin-bottom: 6px;
+    font-weight: 400;
+}
+
+.authors strong {
+    font-weight: 700;
 }
 
 .paper-links {
