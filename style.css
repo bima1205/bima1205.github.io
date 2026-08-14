@@ -172,22 +172,19 @@ section {
 
 .publication {
     display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 46px;
-    padding: 38px 0;
+    grid-template-columns: 240px 1fr;
+    gap: 38px;
+    align-items: start;
+    padding: 34px 0;
     border-top: 1px solid #ededed;
 }
 
-.publication:first-of-type {
-    border-top: none;
-}
-
 .publication-image {
-    height: 190px;
-    background: #f7f7f7;
+    height: 150px;
+    background: #ffffff;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     overflow: hidden;
 }
 
@@ -197,14 +194,16 @@ section {
     width: auto;
     height: auto;
     object-fit: contain;
-    display: block;
+}
+
+.publication-info {
+    padding-top: 0;
 }
 
 .publication-info h3 {
-    font-size: 1.3rem;
+    margin-top: 0;
+    font-size: 1.28rem;
     line-height: 1.35;
-    font-weight: 600;
-    margin-bottom: 12px;
 }
 
 .authors {
