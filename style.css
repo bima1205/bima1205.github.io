@@ -324,3 +324,43 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 48px;
+}
+
+.project-card {
+    border-top: 2px solid #1d1d1f;
+    padding-top: 18px;
+}
+
+.project-number {
+    display: block;
+    font-size: 0.78rem;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-subtitle {
+    font-size: 0.98rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 700px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}
