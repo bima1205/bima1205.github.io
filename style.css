@@ -143,15 +143,31 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 48px;
+    margin-top: 40px;
 }
 
-.research-grid h3 {
-    font-size: 1.15rem;
-    margin-bottom: 12px;
+.research-item {
+    border-top: 1px solid #222;
+    padding-top: 18px;
 }
 
-.research-grid p {
+.research-item h3 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 12px;
+}
+
+.research-item p {
     color: #666;
+    line-height: 1.65;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .research-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
 }
 
 .publication {
